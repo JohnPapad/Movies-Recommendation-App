@@ -1,7 +1,7 @@
 window.addEventListener(
     'load',
     () => {
-        const MOVIES_API_URL = "http://35.198.145.30:3000/";
+        const MOVIES_API_URL = "http://127.0.0.1:3000/";
         let fetchedMoviesById = {};  // {movieId: <all movie info>} - used for caching
         let userMovieRatings = {};   // {moviedId: <rating>} 
         let otherUsersMovieRatings = {}; // {userId: [<highest_rating_movieId> ...]} - used for caching
