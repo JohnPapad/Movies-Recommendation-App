@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script type="text/javascript" src="movies.js"></script>
+        <title>Movies</title>
+    </head>
+    <body class="content">
+        <div class="header">
+            <div class="header-content">
+                Movies Recommendation App
+            </div>
+        </div>
+
+        <div class="search-area">
+            <div class="search-input">
+                <input id="movie-query" type="text" placeholder="Search a movie (type at least 3 characters)"></input>
+            </div>
+
+            <div id="movies-search-note"></div>
+
+            <table id="movies-search-results"></table>
+
+            <div id="pagination"></div>
+        </div>
+
+        <div class="recommended-area">
+            <div class="recommended-movies-header">
+                Recommended Movies
+            </div>
+
+            <div id="recommended-movies-note">
+                You have to rate at least 5 movies first in order to enable recommendations
+            </div>
+
+            <table id="recommended-movies-results"></table>
+            
+            <div id="loading-spinner"></div>
+        </div>
+
+    </body>
+</html>
